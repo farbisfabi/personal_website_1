@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.half_width {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 4%;
+
+  padding-top: 5%;
+  float: left;
+}
+.half_width img {
+  width: 100%;
+}
+header {
+  background-image: url("personal-website/header-bg.png");
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.text_area {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.header_name {
+  font-family: Helvetica;
+  font-weight: 100px;
+  font-size: 30px;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 5em;
+  font-size: 50px;
+  color: rgba(228, 61, 61, 0.966);
+}
+.link_button {
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700px;
+  padding: 15px 30px;
+  background-image: linear-gradient(45deg, rgb(235, 102, 49), rgb(239, 40, 5));
+  border-radius: 5px;
+}
+.header_text {
+  color: dimgray;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.dream {
+  background-image: url("personal-website/biography-bg.png");
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+.work {
+  width: 30%;
+  float: left;
+  padding-left: 2%;
+}
+.work img {
+  width: 100%;
+}
+.latest_work {
+  margin: 2%;
+  align-items: center;
+  background-image: url("personal-website/latest-work-bg.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.latest_work h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.feedback h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.feedback {
+  background-image: url("personal-website/footer-bg.png");
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.client {
+  text-align: center;
+  margin-top: 100px;
+}
+.feedback h3 {
+  text-align: center;
+  color: dimgray;
+}
+.message {
+  text-align: center;
+  margin-top: 50px;
+}
+.mail {
+  text-align: center;
+  background-image: linear-gradient(45deg, rgb(232, 97, 148), rgb(212, 3, 118));
+  padding: 50px;
+  margin-top: 100px;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
+}
+.mail h2 {
+  text-align: center;
+}
+.copyright {
+  color: dimgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
